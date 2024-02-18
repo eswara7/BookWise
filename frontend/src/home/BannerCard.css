@@ -1,0 +1,31 @@
+.banner .swiper {
+  width: 220px;
+  height: 323px;
+}
+
+.banner .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner .swiper-slide:nth-child(1n) {
+  background-image: url("/Users/eswar/Desktop/BookWise/mern-client/src/assets/swiper-books/book1.png");
+}
+
+.banner .swiper-slide:nth-child(2n) {
+    background-image: url("/Users/eswar/Desktop/BookWise/mern-client/src/assets/swiper-books/book3.png");
+}
+
+.banner .swiper-slide:nth-child(3n) {
+    background-image: url("/Users/eswar/Desktop/BookWise/mern-client/src/assets/swiper-books/book4.png");
+}
+
+.banner .swiper-slide:nth-child(4n) {
+background-image: url('/Users/eswar/Desktop/BookWise/mern-client/src/assets/swiper-books/book5.png');}
+
+
